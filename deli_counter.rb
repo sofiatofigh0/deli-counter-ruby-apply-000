@@ -25,8 +25,13 @@ def take_a_number(katz_deli,name)
   
    katz_deli << name
    
-  if katz_deli.length>=1
-       puts "Welcome, #{name}. You are number #{katz_deli.length} in line."
+   counter=1
+   
+   
+  if katz_deli.length >= 1
+       puts "Welcome #{name}. You're ticket number is:  #{counter}."
+       
+    counter=counter+1
     
   end
 end
