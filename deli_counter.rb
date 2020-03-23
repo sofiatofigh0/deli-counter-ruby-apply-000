@@ -33,6 +33,8 @@ def take_a_number(katz_deli,name)
        
     counter=counter+1
     
+  elsif katz_deli.length==0
+         
   end
 end
 
